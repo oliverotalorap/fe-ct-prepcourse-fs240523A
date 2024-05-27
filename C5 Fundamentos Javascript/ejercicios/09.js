@@ -16,3 +16,4 @@ function esNuloOIndefinido(valor) {
   else return (false);
 }
 module.exports = esNuloOIndefinido;
+// ensayando commit
