@@ -9,11 +9,11 @@ function esNuloOIndefinido(valor) {
   // "texto" ---> false
   // Tu código:
 
-  if(valor = 1){
-    return (true);
+  if(valor = null){
+    return true;
    }
-  else if (valor !=1){ return(True);} 
-  else return (false);
-}
+  else if (valor = undefined){ return True;} 
+  else return false;
+ }
 module.exports = esNuloOIndefinido;
-// ensayando commit
+// Bien-C

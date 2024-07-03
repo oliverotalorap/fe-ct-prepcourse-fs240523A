@@ -4,3 +4,4 @@
 const nuevaMultiplicacion = 10 * 4 === 40;
 
 module.exports = nuevaMultiplicacion;
+// bien-2 en el ejercicio

@@ -4,3 +4,4 @@
 const nuevaResta = 10 - 7 === 3;
 
 module.exports = nuevaResta;
+// bien-1 en el ejercicio

@@ -9,10 +9,10 @@ function esNumeroEntero(numero) {
   // Tu código:
 
   if(numero >= 0){
-    return (true);
+    return true;
    }
-  else if (numero < 0){ return(True);} 
-  else return (false);
+  else if (numero < 0){ return True;} 
+  else return false;
 }
   module.exports = esNumeroEntero;
-// ensayando commit
+// duda en el ejercicio

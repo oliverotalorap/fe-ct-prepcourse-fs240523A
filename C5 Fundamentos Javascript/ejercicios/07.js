@@ -8,4 +8,4 @@ function esTipoDato(valor) {
 }
 
 module.exports = esTipoDato;
-//ensayando commit
+// duda en el ejercicio
