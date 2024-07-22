@@ -3,7 +3,8 @@ function obtenerElementoAleatorio(array) {
    // PISTA: Usa el método Math.random().
    // Tu código:
    
-   let indiceAleatorio = Math.floor(Math.random() * array.length);
+   let indiceAleatorio = Math.floor(Math.random * array.length);
+   //let indiceAleatorio = Math.floor(Math.random() * array.length);
    let elementoAleatorio = array[indiceAleatorio];
    console.log(elementoAleatorio);    
    //chatGPT no funciono 
