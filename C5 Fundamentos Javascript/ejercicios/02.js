@@ -4,4 +4,3 @@
 const nuevoNumero = 22;
 
 module.exports = nuevoNumero;
-// duda en el ejercicio

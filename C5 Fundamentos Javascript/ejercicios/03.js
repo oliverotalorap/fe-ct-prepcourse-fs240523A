@@ -4,4 +4,3 @@
 const nuevoBoolean = true;
 
 module.exports = nuevoBoolean;
-// duda en el ejercicio

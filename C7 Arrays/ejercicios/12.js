@@ -5,9 +5,9 @@ function convertirStringAMayusculas(array) {
 
   const pasarAMayusculas = [];
   for(let i = 0; i < array.length; i++){
-  pasarAMayusculas.tuUpperCase(array[i] ) }
-  return pasarAMayusculas; 
-
+  pasarAMayusculas.tuUpperCase(array[i] )
+  };
+  return pasarAMayusculas.toUpperCase; 
   return array.toUpperCase();
 }
 

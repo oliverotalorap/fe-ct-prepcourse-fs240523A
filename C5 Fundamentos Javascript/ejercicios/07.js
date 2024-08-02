@@ -4,8 +4,8 @@ function esTipoDato(valor) {
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
 
-  return "ValorEsUnString";
+  return valoralor.EsUnString;
 }
 
 module.exports = esTipoDato;
-// duda en el ejercicio
+// NO PASA

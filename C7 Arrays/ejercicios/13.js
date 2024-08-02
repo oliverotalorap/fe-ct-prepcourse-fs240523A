@@ -12,4 +12,4 @@ function filtrarNumerosPares(array) {
 };
 
 module.exports = filtrarNumerosPares;
-// paso Repasar pq paso
+// paso Repasar

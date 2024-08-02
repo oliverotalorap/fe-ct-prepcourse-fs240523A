@@ -8,11 +8,11 @@ function esNumeroEntero(numero) {
   // 121.212 ---> false 
   // Tu código:
 
-  if(numero >= 0){
+  if(numero > 0 && numero < 0){
     return true;
    }
-  else if (numero < 0){ return True;} 
   else return false;
+
 }
   module.exports = esNumeroEntero;
-// duda en el ejercicio
+// NO PASA, pasa solo 2 tests
