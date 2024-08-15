@@ -8,11 +8,15 @@ function esNumeroEntero(numero) {
   // 121.212 ---> false 
   // Tu código:
 
-  if(numero > 0 && numero < 0){
-    return true;
-   }
-  else return false;
+  
+  if(numero % 1 == 0){ 
+        return true; 
+      }
+      else return false;
+    
+    return numero.isInteger();
+    // numero.isInteger(numero);
 
-}
+};
   module.exports = esNumeroEntero;
 // NO PASA, pasa solo 2 tests

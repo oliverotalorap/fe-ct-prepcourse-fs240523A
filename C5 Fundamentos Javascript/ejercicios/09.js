@@ -9,11 +9,9 @@ function esNuloOIndefinido(valor) {
   // "texto" ---> false
   // Tu código:
 
-  if(valor = null){
-    return true;
-   }
-  else if (valor = undefined){ return True;} 
+  if(valor == null){ return true; }
+  else if (valor == undefined){ return True;} 
   else return false;
- }
+};
 module.exports = esNuloOIndefinido;
-// Bien-C
+// paso
