@@ -14,4 +14,4 @@ function sonIguales(x, y) {
 }
 
 module.exports = sonIguales;
-// paso
+// pass

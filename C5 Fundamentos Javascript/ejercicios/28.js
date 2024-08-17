@@ -10,3 +10,4 @@ function retornarPerimetro(lado) {
 }
 
 module.exports = retornarPerimetro;
+// paso

@@ -3,8 +3,10 @@ function esTipoDato(valor) {
   // Retorna el tipo de dato de este valor.
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
-
-   return typeof valor;
+  
+  let tipoDato = typeof valor;
+  return tipoDato;
+  return typeof valor;
    //return valor.EsUnString;
 }
 

@@ -11,3 +11,4 @@ function areaDelTriangulo(base, altura) {
 }
 
 module.exports = areaDelTriangulo;
+// paso

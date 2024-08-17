@@ -9,3 +9,4 @@ function obtenerResto(x, y) {
 }
 
 module.exports = obtenerResto;
+// paso

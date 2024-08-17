@@ -3,4 +3,6 @@
 
 const nuevoBoolean = true;
 // boolean: false o true.
+
 module.exports = nuevoBoolean;
+// paso

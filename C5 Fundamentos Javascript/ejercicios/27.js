@@ -10,3 +10,4 @@ function obtenerAreaRectangulo(alto, ancho) {
 }
 
 module.exports = obtenerAreaRectangulo;
+// paso
