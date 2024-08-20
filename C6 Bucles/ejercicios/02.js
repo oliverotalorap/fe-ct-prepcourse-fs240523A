@@ -7,5 +7,4 @@ function esVerdaderoYFalso(booleano1, booleano2) {
   else return false;
 
 }
-
 module.exports = esVerdaderoYFalso;

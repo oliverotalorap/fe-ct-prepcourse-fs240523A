@@ -7,5 +7,4 @@ function esParYDivisiblePorTres(a) {
   if (a % 2 == 0 && a % 3 == 0) {return true; }
   else return false; 
 }
-
 module.exports = esParYDivisiblePorTres;

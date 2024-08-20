@@ -6,5 +6,4 @@ function esDiezOCinco(num) {
   if (num == 5 || num == 10) {return true; }
   else return false;
 }
-
 module.exports = esDiezOCinco;

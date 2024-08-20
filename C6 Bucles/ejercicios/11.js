@@ -6,5 +6,4 @@ function estaEnRango(num) {
   if(num > 20 && num < 50) {return true; }
   else return false;
 }
-
 module.exports = estaEnRango;

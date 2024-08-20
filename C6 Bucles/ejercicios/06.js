@@ -6,5 +6,4 @@ function tieneTresDigitos(num) {
   if (num <= 999 && num >99 ) {return true; }
   else return false;
 }
-
 module.exports = tieneTresDigitos;

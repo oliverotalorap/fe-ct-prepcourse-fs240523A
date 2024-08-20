@@ -8,17 +8,15 @@ function esNumeroEntero(numero) {
   // 121.212 ---> false 
   // Tu código:
 
+  
   return Number.isInteger(numero);
   //return numero.isInteger();
-
+  
   let resultado = Number.isInteger(numero);
   return resultado;
-
-  // if(numero % 1 != 0) { return true; }
-  // else if (numero % 1 != -0) { return true; }
-  // else return false;
-
-    // numero.isInteger(numero);
+  
+  if(numero % 1 == 0) return true; 
+  else return false;
   };
   module.exports = esNumeroEntero;
 // paso

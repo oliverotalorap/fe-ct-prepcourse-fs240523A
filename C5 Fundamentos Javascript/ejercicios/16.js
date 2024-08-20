@@ -7,6 +7,7 @@ function esImpar(num) {
   // 14 ---> false
   // Tu código:
 
+  return num % 2 == 1;
   if (num % 2 == 1) {return true;
   }
   else return false;

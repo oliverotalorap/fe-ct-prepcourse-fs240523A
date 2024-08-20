@@ -8,5 +8,4 @@ function esIgualYNegativo(a, b) {
   else return false;
 
 }
-
 module.exports = esIgualYNegativo;

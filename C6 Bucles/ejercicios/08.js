@@ -7,5 +7,4 @@ function esPositivoOInferiorA10(a) {
    else return false;
 
 }
-
 module.exports = esPositivoOInferiorA10;
