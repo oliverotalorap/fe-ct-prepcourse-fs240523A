@@ -8,3 +8,4 @@ function esPositivoOInferiorA10(a) {
 
 }
 module.exports = esPositivoOInferiorA10;
+// paso

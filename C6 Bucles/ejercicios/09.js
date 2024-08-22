@@ -11,3 +11,4 @@ function conection(status) {
   else return "Offline"; 
 }
 module.exports = conection;
+// paso

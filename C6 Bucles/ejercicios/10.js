@@ -7,3 +7,4 @@ function esDiezOCinco(num) {
   else return false;
 }
 module.exports = esDiezOCinco;
+// paso

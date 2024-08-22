@@ -8,3 +8,4 @@ function mayoriaDeEdad(edad) {
   else return "Not allowed";
 }
 module.exports = mayoriaDeEdad;
+// paso

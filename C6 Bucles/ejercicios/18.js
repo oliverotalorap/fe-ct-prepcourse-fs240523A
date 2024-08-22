@@ -3,8 +3,19 @@ function productoEntreNúmeros(a, b) {
   // los números entre a y b (inclusive).
   // Tu código:
 
-  
+      let producto = 1;
+        for (let i = a; i <= b; i++) {
+          producto *= i;
+          
+        }
+        return producto === 0 ? 0: producto;
+
+  // var suma = 0;
+  // for (var i = 0 ; i < b; i++ ) {
+  //   suma = suma + 1;
+  // }
+  // return suma;
 }
 
 module.exports = productoEntreNúmeros;
-// no Se Explicacion
+// paso nesesito Explicacion

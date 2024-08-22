@@ -9,6 +9,6 @@ function doWhile(num) {
   while (i < 8) 
     return num;
 }
-
+ 
 module.exports = doWhile;
-// Explicacion y como se imprime en panatalla
+// paso Explicacion y como se imprime en panatalla

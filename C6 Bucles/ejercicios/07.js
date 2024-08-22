@@ -8,3 +8,4 @@ function esParYDivisiblePorTres(a) {
   else return false; 
 }
 module.exports = esParYDivisiblePorTres;
+// paso

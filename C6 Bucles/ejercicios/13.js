@@ -14,3 +14,4 @@ function esEntero(num) {
 }
 
 module.exports = esEntero;
+// paso

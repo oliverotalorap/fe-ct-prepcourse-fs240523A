@@ -16,5 +16,5 @@ function obtenerDiaSemana(numero) {
   else if ( numero == 7 ) return "Domingo";
   else return "No es un dia de la semana";
 }
-
 module.exports = obtenerDiaSemana;
+// paso

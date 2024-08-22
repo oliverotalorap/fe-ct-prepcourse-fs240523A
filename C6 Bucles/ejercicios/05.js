@@ -7,3 +7,4 @@ function esVerdadero(valor) {
   else return "Soy falso";
 }
 module.exports = esVerdadero;
+// paso

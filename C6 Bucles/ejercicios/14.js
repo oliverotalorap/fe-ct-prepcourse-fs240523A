@@ -16,3 +16,4 @@ function operadoresLogicos(num1, num2, num3) {
 }
 
 module.exports = operadoresLogicos;
+// paso
