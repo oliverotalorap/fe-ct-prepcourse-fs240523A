@@ -8,6 +8,7 @@ function elevar(num, exponent) {
   // 0, 5 ---> 0
   // Tu código:
 
+  return Math.pow(num, exponent);
   return num ** exponent;
 }
 

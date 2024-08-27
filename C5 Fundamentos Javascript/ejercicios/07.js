@@ -6,9 +6,9 @@ function esTipoDato(valor) {
   
   let tipoDato = typeof valor;
   return tipoDato;
-  return typeof valor;
-   //return valor.EsUnString;
+//  return typeof valor;
 }
+
 
 module.exports = esTipoDato;
 // paso

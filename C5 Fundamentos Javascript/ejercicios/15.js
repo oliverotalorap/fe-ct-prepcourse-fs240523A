@@ -8,10 +8,10 @@ function esPar(num) {
   // Tu código:
 
   return num % 2 == 0;
+  
   if (num % 2 == 0) {return true;
   }
   else return false;
-
 }
 module.exports = esPar;
 // paso

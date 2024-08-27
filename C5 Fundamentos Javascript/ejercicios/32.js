@@ -8,6 +8,7 @@ function elevarAlCubo(num) {
   // 0 ---> 0
   // Tu código:
 
+  return Math.pow(num, 3);
   return num **3;
 }
 
