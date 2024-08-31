@@ -6,8 +6,8 @@ function doWhile(num) {
 
   var i = 0;
   do { num = num + 5; i++; } 
-  while (i < 8) 
-    return num;
+  while (i < 8) return num;
+  // console.log(num); -No lo admite
 }
  
 module.exports = doWhile;

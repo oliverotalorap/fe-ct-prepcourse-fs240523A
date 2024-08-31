@@ -8,6 +8,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
 
   // agregarItemAlComienzoDelArray.unshift("inicio");
   // return agregarItemAlComienzoDelArray;
+  // Estudiar otra forma
 }
 
 module.exports = agregarItemAlComienzoDelArray;

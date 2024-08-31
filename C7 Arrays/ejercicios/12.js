@@ -7,9 +7,9 @@ function convertirStringAMayusculas(array) {
   for(let i = 0; i < array.length; i++){
   pasarAMayusculas.tuUpperCase(array[i] )
   };
-  return pasarAMayusculas.toUpperCase; 
   return array.toUpperCase();
+  return pasarAMayusculas.toUpperCase; 
 }
 
 module.exports = convertirStringAMayusculas;
-// - NO PASO -paso solo 1
+// NO PASO EXPLICACION

@@ -6,11 +6,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   array.push(elemento);
   return array;
   
-  //var agregarItemAlComienzoDelArray = agregarItemAlFinalDelArray.push("elemento");
-  //return agregarItemAlComienzoDelArray;
-  
-  //  agregarItemAlFinalDelArray.push("elemento");
-  //  return agregarItemAlFinalDelArray;
+  //  let agregar = agregarItemAlFinalDelArray.push("elemento");
+  //  return agregar
+  //Consultar otra forma 
 }
 
 module.exports = agregarItemAlFinalDelArray;

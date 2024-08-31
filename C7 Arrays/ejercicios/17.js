@@ -5,8 +5,10 @@ function agregarNumeros(arrayOfNums) {
   var total = 0;
   for (let i = 0; i < arrayOfNums.length; i++) {
      total = total + arrayOfNums[i]; 
+     //total = total + i;  // NO funciono Explicacion
   }
   return total;
 
 }
 module.exports = agregarNumeros;
+// paso EXPLICACION

@@ -4,9 +4,11 @@ function obtenerMayor(x, y) {
   // Si son iguales, retornar cualquiera de los dos.
   // Tu código:
 
-if (x == y){return x;}
-  else if (x > y ) {return x; }
-  else return y;
+ return Math.max(x,y); //master
+
+// if (x == y){return x;}
+//   else if (x > y ) {return x; }
+//   else return y;
 
 }
 module.exports = obtenerMayor;

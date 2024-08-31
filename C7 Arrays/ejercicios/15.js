@@ -4,12 +4,13 @@ function encontrarIndiceMayor(array) {
   // Tu código:
 
   var nuevo =[];
-  for (var i = 0; i < array.length; i++)
-  if(array[i] > 10){
+  for (var i = 0; i < array.length; i=i+1)
+    nuevo.push(array.Math.max[i])
      nuevo.push(array[i])
-  };
-  return nuevo.Math.max;
+  
+  return nuevo;
+  
 }
 
 module.exports = encontrarIndiceMayor;
-// no se INVESTIGAR
+// NO PASO EXPLICACION

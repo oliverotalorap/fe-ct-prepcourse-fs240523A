@@ -3,8 +3,12 @@ function esVerdadero(valor) {
   // Caso contrario, retorna "Soy falso".
   // Tu código:
 
-  if (valor == true) {return "Soy verdadero"}
+
+  if (valor) return "Soy verdadero" // master
   else return "Soy falso";
+
+  // if (valor == true) {return "Soy verdadero"}
+  // else return "Soy falso";
 }
 module.exports = esVerdadero;
 // paso

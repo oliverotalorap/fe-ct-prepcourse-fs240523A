@@ -4,9 +4,10 @@ function duplicarElementos(array) {
   // Tu código:
 
   const duplicarElementos = [];
-  for(let i = 0; i < array.length; i++){
+  for(let i = 0; i < array.length; i=i+1){
   duplicarElementos.push(array[i] * 2 ) }
   return duplicarElementos; 
 }
 
 module.exports = duplicarElementos;
+// paso EXPLICACION

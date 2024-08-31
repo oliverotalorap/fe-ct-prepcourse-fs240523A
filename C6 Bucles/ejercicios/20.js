@@ -6,8 +6,8 @@ function sumarHastaNConBreak(n) {
 
    let suma = 0;
    for (let i = 1; i <= n; i++) {
-     suma = suma + i;
      if (suma > 100) break;
+     suma = suma + i;
    }
    return suma;
 

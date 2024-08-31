@@ -11,3 +11,4 @@ function contarElementosMayoresA10(array) {
 }
 
 module.exports = contarElementosMayoresA10;
+// paso EXPLICACION

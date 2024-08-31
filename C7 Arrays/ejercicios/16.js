@@ -13,4 +13,4 @@ function multiplicarElementosPorIndice(array) {
 };
 
 module.exports = multiplicarElementosPorIndice;
-//no PASO 
+// NO PASO EXPLICACION

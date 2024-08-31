@@ -6,10 +6,19 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
 
-  if (idioma == "aleman") return "Guten Tag!";
-  if (idioma == "mandarin") return "Ni Hao!";
-  if (idioma == "ingles") return "Hello!";
-  else  return "Hola!"
+switch (idioma) {
+  case "aleman": return "Guten Tag!"
+  case "mandarin": return "Ni Hao!"
+  case "ingles": return "Hello!"
+  default: return "Hola!"
+      // master 
+      // textear o comentar
+}
+
+  // if (idioma == "aleman") return "Guten Tag!";
+  // if (idioma == "mandarin") return "Ni Hao!";
+  // if (idioma == "ingles") return "Hello!";
+  // else  return "Hola!"
 }
 
 module.exports = saludo;

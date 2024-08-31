@@ -6,11 +6,12 @@ function esEntero(num) {
   // De lo contrario, retorna false.
   // Tu código:
 
-  
-  if (num % 1 == 0) return true;
-  else return false;
+  return Number.isInteger(num);
+  //return num % 1 == 0;
 
-  //return Number.isInteger(num);
+  // if (num % 1 == 0) return true;
+  // else return false;
+
 }
 
 module.exports = esEntero;
