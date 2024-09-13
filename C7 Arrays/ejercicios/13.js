@@ -3,7 +3,7 @@ function filtrarNumerosPares(array) {
   // Tu código:
 
   var nuevo =[];
-   for (var i = 0; i < array.length; i++)
+   for (var i = 0; i < array.length; i= i+1)
    if(array[i] % 2 == 0){
       nuevo.push(array[i])
    };

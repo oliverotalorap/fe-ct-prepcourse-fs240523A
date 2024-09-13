@@ -6,9 +6,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   array.unshift(elemento); 
   return array;
 
-  // agregarItemAlComienzoDelArray.unshift("inicio");
-  // return agregarItemAlComienzoDelArray;
-  // Estudiar otra forma
+  agregarItemAlComienzoDelArray.unshift(elemento);
+  return agregarItemAlComienzoDelArray;
+  // Estudiar y explicacion
 }
 
 module.exports = agregarItemAlComienzoDelArray;

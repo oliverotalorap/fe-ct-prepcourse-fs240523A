@@ -5,9 +5,10 @@ function encontrarElemento(num, array) {
    // Tu código:
    
    return array.indexOf(num);
-
-   //indice = array.indexOf(num);
-   //return indice;
+   
+   indice = array.indexOf(num);
+   return indice;
+   
 }
 
 module.exports = encontrarElemento;

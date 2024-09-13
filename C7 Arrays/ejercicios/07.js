@@ -4,6 +4,7 @@ function ordenarArray(array) {
   // Tu código:
   
   return array.sort();
+  // repasar el ejercicio
 }
 
 module.exports = ordenarArray;

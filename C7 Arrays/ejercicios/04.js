@@ -8,8 +8,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   
   //  let agregar = agregarItemAlFinalDelArray.push("elemento");
   //  return agregar
-  //Consultar otra forma 
+
+  //Consultar otra forma pasarlo a mis archivos
 }
 
 module.exports = agregarItemAlFinalDelArray;
-// paso 
+// paso Repasarlo
