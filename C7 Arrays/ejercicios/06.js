@@ -5,9 +5,6 @@ function invertirArray(array) {
   array.reverse();
   return array;
 
-  invertirArray.reverse();
-  return invertirArray;
-  // Repasar el ejercicio
-}
+};
 
 module.exports = invertirArray;

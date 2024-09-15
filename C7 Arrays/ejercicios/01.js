@@ -4,7 +4,6 @@ function devolverPrimerElemento(array) {
 
   return array[0];
   return array[array.length +0];  //No funciono Repasarlo
-
-}
+};
 
 module.exports = devolverPrimerElemento;

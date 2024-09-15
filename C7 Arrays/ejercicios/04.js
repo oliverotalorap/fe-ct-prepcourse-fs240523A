@@ -6,11 +6,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   array.push(elemento);
   return array;
   
-  //  let agregar = agregarItemAlFinalDelArray.push("elemento");
-  //  return agregar
-
-  //Consultar otra forma pasarlo a mis archivos
-}
+  //  var agregar = agregarItemAlFinalDelArray.push("elemento");
+  //  return agregar;      //NO PASO 
+};
 
 module.exports = agregarItemAlFinalDelArray;
 // paso Repasarlo

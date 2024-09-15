@@ -9,8 +9,8 @@ function encontrarIndiceMayor(array) {
      nuevo.push(array[i])
   
   return nuevo;
+  // NO PASO EXPLICACION
   
 }
 
 module.exports = encontrarIndiceMayor;
-// NO PASO EXPLICACION

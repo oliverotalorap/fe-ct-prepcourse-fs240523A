@@ -10,7 +10,7 @@ function multiplicarElementosPorIndice(array) {
   };
 
   return nuevo * array.length;
+  // NO PASO EXPLICACION
 };
 
 module.exports = multiplicarElementosPorIndice;
-// NO PASO EXPLICACION

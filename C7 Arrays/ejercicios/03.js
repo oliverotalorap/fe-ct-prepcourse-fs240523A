@@ -3,7 +3,6 @@ function obtenerLargoDelArray(array) {
   // Tu código:
 
   return array.length;
-  
-}
+};
 
 module.exports = obtenerLargoDelArray;

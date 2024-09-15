@@ -9,6 +9,5 @@ function encontrarPrimerMultiploDeN(n, secuencia) {
     if (i == 12){ break;
     }
   }
-  
-}
+};
 module.exports = encontrarPrimerMultiploDeN;

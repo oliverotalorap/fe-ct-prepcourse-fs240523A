@@ -4,6 +4,6 @@ function invertirTexto(texto) {
   // Tu código:
 
   return texto.reverce
-}
+};
 
 module.exports = invertirTexto;

@@ -3,8 +3,9 @@ function devolverUltimoElemento(array) {
   // Tu código:
  
   return array[array.length-1];
-  return array[-1]; // No funciono 
-
-}
+  
+  const ultimoElemento = array.length -1;
+  return array[ultimoElemento];
+};
 
 module.exports = devolverUltimoElemento;

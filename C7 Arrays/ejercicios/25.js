@@ -6,6 +6,6 @@ function contarParesConContinue(numeros) {
 
   if(numeros % 2 == 0) push
   
-}
+};
 
 module.exports = contarParesConContinue;
