@@ -4,11 +4,10 @@ function contarElementosMayoresA10(array) {
 
   var nuevo =[];
    for (var i = 0; i < array.length; i++)
-   if(array[i] > 10){
-      nuevo.push(array[i])
+   if(array[i] > 10){ nuevo.push(array[i])
    };
    return nuevo.length;
-}
+};
 
 module.exports = contarElementosMayoresA10;
 // paso EXPLICACION

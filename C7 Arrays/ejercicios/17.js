@@ -4,11 +4,12 @@ function agregarNumeros(arrayOfNums) {
 
   var total = 0;
   for (let i = 0; i < arrayOfNums.length; i++) {
-     total = total + arrayOfNums[i]; 
-     //total = total + i;  // NO funciono Explicacion
-  }
+    total = total + arrayOfNums[i]; 
+  };
   return total;
 
-}
+  var sumaNumeros = arrayOfNums.reduce((num1, num2) => num1 + num2);
+  return sumaNumeros;
+};
 module.exports = agregarNumeros;
-// paso EXPLICACION
+// paso Explicacion

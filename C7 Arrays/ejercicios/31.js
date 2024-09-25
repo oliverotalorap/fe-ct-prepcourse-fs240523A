@@ -3,7 +3,17 @@ function invertirTexto(texto) {
   // Tu objetivo es invertir el string y devolver el string invertido.
   // Tu código:
 
-  return texto.reverce
-};
+  // const caracteres = texto.split('');  // Convertimos el texto en un arreglo de caracteres
+  // const caracteresInvertidos = caracteres.reverse();  // Invertimos el arreglo de caracteres
+  // const textoInvertido = caracteresInvertidos.join('');  // Unimos los caracteres invertidos en un string
+  // return textoInvertido;  // Retornamos el string invertido
 
+  var palabraSeparada = texto.split("");
+  //console.log(palabraSeparada);
+  var palabraInvertida = palabraSeparada.reverse();
+  //console.log(palabraInvertida);
+  var palabraUnida = palabraInvertida.join("") 
+  return palabraUnida;
+};
 module.exports = invertirTexto;
+// paso

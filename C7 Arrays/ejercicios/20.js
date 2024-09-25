@@ -3,12 +3,10 @@ function todosIguales(array) {
   // Caso contrario, retornar false.
   // Tu código:
   
-  for(let i = 0; i< array.length; i++) {
-    if (array == array) return true;
-    else return false;
-  }
-    
-}
-
+  for (var i =0; i < array.length; i++ ){
+    if(array[i] === array[i = 1]) { return true; }
+       else return false;           // - Solo retorna true-
+    };
+};
 module.exports = todosIguales;
 // paso EXPLICACION

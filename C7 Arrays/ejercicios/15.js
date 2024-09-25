@@ -3,14 +3,10 @@ function encontrarIndiceMayor(array) {
   // Devuelve el valor de este índice.
   // Tu código:
 
-  var nuevo =[];
-  for (var i = 0; i < array.length; i=i+1)
-    nuevo.push(array.Math.max[i])
-     nuevo.push(array[i])
-  
-  return nuevo;
-  // NO PASO EXPLICACION
-  
-}
+   const maxNumero = Math.max(...array);
+   const indiceMax = array.indexOf(maxNumero);
+   return indiceMax;
 
+};
 module.exports = encontrarIndiceMayor;
+// NO PASO en el HomeWork, pero si paso en mis Ensayos

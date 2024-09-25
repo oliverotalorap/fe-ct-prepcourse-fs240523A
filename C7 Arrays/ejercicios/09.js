@@ -8,10 +8,6 @@ function obtenerElementoAleatorio(array) {
    let indiceAleatorio = Math.floor(Math.random() * array.length);
    let elementoAleatorio = array[indiceAleatorio];
    return elementoAleatorio;    
-   
-      //chatGPT no funciono 
-   //return math.random(array);
-}
-
+};
 module.exports = obtenerElementoAleatorio;
 // paso EXPLICACION

@@ -3,14 +3,14 @@ function multiplicarElementosPorIndice(array) {
   // Devuelve el nuevo arreglo con los resultados.
   // Tu código:
 
-  var nuevo =[];
-  for (var i = 0; i < array.length; i++)
-  if(array[i] < array.length ) {
-     nuevo.push(array[i])
-  };
+  //return (array * array.length);
 
-  return nuevo * array.length;
-  // NO PASO EXPLICACION
+  const porIndice = [];
+  for(let i = 0; i < array.length; i=i+1){
+  porIndice.push(array[i] * porIndice.length) 
+  };
+  return porIndice;
 };
 
 module.exports = multiplicarElementosPorIndice;
+// Paso repasar

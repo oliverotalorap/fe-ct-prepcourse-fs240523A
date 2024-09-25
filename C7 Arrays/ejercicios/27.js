@@ -5,7 +5,15 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
 
-  
-}
-
+  return palabras.join(" ");  // (' ');
+   
+//   let frase = []; // ""; ("");
+//   for (let i =0; i< palabras.length; i++ ){
+//      if(frase == []) {frase = palabras[i] }
+//      else {frase = frase + " " + palabras[i] }
+//   };
+//   return frase;
+   // el Bucle FOR pasa en mi plantilla; PERO NO PASA EN EL WOMEWORK
+};
 module.exports = dePalabrasAFrase;
+//paso analisar el for 

@@ -8,7 +8,6 @@ function filtrarNumerosPares(array) {
       nuevo.push(array[i])
    };
    return nuevo;
-   
 };
 
 module.exports = filtrarNumerosPares;

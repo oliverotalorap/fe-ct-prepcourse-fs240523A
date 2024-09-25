@@ -4,8 +4,13 @@ function contarParesConContinue(numeros) {
   // Evita los impares utilizando continue.
   // Tu código:
 
-  if(numeros % 2 == 0) push
-  
+  let contador = 0;
+  for (let i=0; i < numeros.length; i=i+1) {
+     if(numeros[i] % 2 !== 0) {continue; }
+     contador=contador+1;
+     //contador++;
+  };
+  return contador;
 };
-
 module.exports = contarParesConContinue;
+// paso

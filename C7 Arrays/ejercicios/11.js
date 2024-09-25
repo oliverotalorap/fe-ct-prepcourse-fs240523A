@@ -7,7 +7,7 @@ function duplicarElementos(array) {
   for(let i = 0; i < array.length; i=i+1){
   duplicarElementos.push(array[i] * 2 ) };
   return duplicarElementos; 
-}
+};
 
 module.exports = duplicarElementos;
 // paso EXPLICACION
