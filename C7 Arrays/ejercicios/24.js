@@ -6,6 +6,14 @@ function continueStatement(num) {
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
 
+  let array = [];
+  for (let i = 0; i < 10; i++) { 
+    if ( i === 5) continue; 
+    num = num + 2;
+    array.push(num)
+  };
+  return array;  // Ejercicios Camilo Pineda
+
   var aux = [];
   //for (let i = 0; i < 10; i=i+1) { if(i === 5) { continue; }; 
   for (let i = 0; i < 10; i=i+1) { if(i === 5) continue; 

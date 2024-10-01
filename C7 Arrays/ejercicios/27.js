@@ -5,7 +5,12 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
 
-  return palabras.join(" ");  // (' ');
+let texto = palabras.reduce(function(acum, palabras){
+  return acum + " " + palabras
+});
+return texto; 
+
+return palabras.join(" ");  // (' ');
    
 //   let frase = []; // ""; ("");
 //   for (let i =0; i< palabras.length; i++ ){

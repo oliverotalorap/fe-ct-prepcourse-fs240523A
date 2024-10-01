@@ -9,5 +9,7 @@ function tablaDelSeis() {
       resultado.push(i*6);
    };
    return resultado;
+
 };
+
 module.exports = tablaDelSeis;
