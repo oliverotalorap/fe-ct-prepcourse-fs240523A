@@ -15,4 +15,5 @@ function promedioResultadosTest(resultadosTest) {
    return total / resultadosTest.length;
 
 };
+
 module.exports = promedioResultadosTest;

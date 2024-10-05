@@ -23,3 +23,4 @@ console.log(resultado);
 // Prueva de escritorio.
 
 module.exports = invertirArray;
+// paso

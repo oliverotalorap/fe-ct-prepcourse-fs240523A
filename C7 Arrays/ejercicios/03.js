@@ -4,6 +4,7 @@ function obtenerLargoDelArray(array) {
 
   return array.length;
   
+  
 };
 
 module.exports = obtenerLargoDelArray;

@@ -6,6 +6,7 @@ function devolverUltimoElemento(array) {
   
   const ultimoElemento = array.length -1;
   return array[ultimoElemento];
+  
 };
 
 module.exports = devolverUltimoElemento;

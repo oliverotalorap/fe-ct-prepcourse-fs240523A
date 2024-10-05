@@ -6,7 +6,8 @@ function esArrayNoVacio(arr) {
 
   if (Array.isArray(arr) && arr.length > 0) {
   return true;  // Si es un arreglo y no está vacío, retornamos true
-  } else {return false;  //} else {return false;  // Si no es un arreglo o está vacío, retornamos false
+  } else {return false;  
+  //} else {return false;  // Si no es un arreglo o está vacío, retornamos false
   };
 
 };

@@ -8,14 +8,14 @@ function invertirTexto(texto) {
   // const textoInvertido = caracteresInvertidos.join('');  // Unimos los caracteres invertidos en un string
   // return textoInvertido;  // Retornamos el string invertido
 
-  // var palabraSeparada = texto.split("");
-  // //console.log(palabraSeparada);
-  // var palabraInvertida = palabraSeparada.reverse();
-  // //console.log(palabraInvertida);
-  // var palabraUnida = palabraInvertida.join("") 
-  // return palabraUnida;
 
-  return texto.split("").reverse().join(""); // por Camilo Pineda
+  // return texto.split("").reverse().join(""); // por Camilo Pineda
+
+
+  var palabraSeparada = texto.split("");            //console.log(palabraSeparada);
+  var palabraInvertida = palabraSeparada.reverse(); //console.log(palabraInvertida);
+  var palabraUnida = palabraInvertida.join("") 
+  return palabraUnida;
 
 
 };

@@ -14,7 +14,7 @@ function agregarNumeros(arrayOfNums) {
   return total;
 
   var sumaNumeros = arrayOfNums.reduce((num1, num2) => num1 + num2);
-  return sumaNumeros;
+  return sumaNumeros;  // Pasa nesesito explicacion.
 
 };
 module.exports = agregarNumeros;

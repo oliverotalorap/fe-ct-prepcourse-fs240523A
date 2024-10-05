@@ -12,17 +12,19 @@ function breakStatement(num) {
   }
   return array; 
 
-  let aux = [];
-  let aux2 = false;
-  //let aux2 = [];
-  //for(let i = 0; i < 10; i++) {num = num + 2;   // num += 2;
-  for(let i = 0; i < 10; i++) {num += 2;   // num = num + 2;
-     aux.push(num);
-     if(num === i) { aux2 = true;
-        break; }; 
-  };
-  if(aux2) {return "Se interrumpió la ejecución"; };
-  return aux;
+  // //let aux2 = [];
+  // //for(let i = 0; i < 10; i++) {num = num + 2;   // num += 2;
+  // let aux = [];
+  // //let aux2 = false; //Al Ejecutar muestra -undefined-; pero pasa el womework C7-Eje23
+  // //let aux2 = [];    //NO PASA EL HOMEWORK, pero pada en el escritorio
+  // let aux2 = 0;
+  // for(let i = 0; i < 10; i++) {num += 2;   // num = num + 2;
+  //    aux.push(num);
+  //    if(num === i) { aux2 = true;
+  //       break; }; 
+  // };
+  // if(aux2) {return "Se interrumpió la ejecución"; };
+  // return aux;
 };
 module.exports = breakStatement;
 //paso; NESESITO EXPLICACION

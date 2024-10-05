@@ -22,12 +22,9 @@ function multiplicarArgumentos() {
   // };
   //  return argMultiplicados;
 
-//   if(arguments.length === 0 ) return 0;
-//   if(arguments.length === 1 ) return arguments[0];
-//  let multiplicacion = arguments.reduce(function(acum, numero) {
-//    return acum * numero;
-//  });     return multiplicacion;   // NO PASO REPASAR
+
 };
-multiplicarArgumentos(2,3,4,5,6,7);
+
+multiplicarArgumentos([2,3,4,5,6,7]);
 // Es un OBJETO; NoEsArreglo;
 module.exports = multiplicarArgumentos;
