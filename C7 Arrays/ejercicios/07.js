@@ -4,7 +4,8 @@ function ordenarArray(array) {
   // Tu código:
   
   return array.sort();
-  // el parentesis puede resibir > o <
+  
+  
 };
 
 module.exports = ordenarArray;

@@ -5,8 +5,8 @@ function tablaDelSeis() {
   // Tu código:
 
 //const resultado = [];
-var resultado = [];
 //let resultado = [];
+var resultado = [];
    for(let i = 0; i <= 10; i++){
       resultado.push(i*6);
    };

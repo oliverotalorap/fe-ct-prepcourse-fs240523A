@@ -3,10 +3,10 @@ function promedioResultadosTest(resultadosTest) {
   //devuelve el promedio de las notas.
   // Tu código:
 
-  let promedioTest = resultadosTest.reduce(function(acum, numero) {
-   return acum + numero;
- });
- return promedioTest / resultadosTest.length;
+//   let promedioTest = resultadosTest.reduce(function(acum, numero) {
+//    return acum + numero;
+//  });
+//  return promedioTest / resultadosTest.length;
 
   var total = 0;
    for (let i = 0; i < resultadosTest.length; i++ ){

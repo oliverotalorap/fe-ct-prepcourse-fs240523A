@@ -8,8 +8,8 @@ let multiplo = undefined;
   for (let i = 0; i < secuencia.length; i++) {
     if (secuencia[i] % n === 0) {
       multiplo = secuencia[i]
-      break; 
-}  };
+      break; } 
+    };
 return multiplo; //Ejemplos Camilo Pineda 30 -/ 76 de 79?
 
 

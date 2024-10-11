@@ -14,15 +14,14 @@ function obtenerPrimerStringLargo(array) {
   //   return primerStringLargo;
 
 
-//   for(let i = 0; i < array.length; i=i+1){
-//    if (array[i].length >= 5) return array[i]; 
-//  };
+  for(let i = 0; i < array.length; i=i+1){
+   if (array[i].length >= 5) return array[i];  };
 
- array[0];
-      for (let i =0; i < array.length; i=i+1) 
-      if (array[i].length >= 5) { array.push(array[i].length > 5) 
-         return array[i]; 
-    };
+//  array[0];
+//       for (let i =0; i < array.length; i=i+1) 
+//       if (array[i].length >= 5) { array.push(array[i].length > 5) 
+//          return array[i]; 
+//     };
 
 
 };

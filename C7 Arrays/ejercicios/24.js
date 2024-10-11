@@ -23,6 +23,7 @@ function continueStatement(num) {
      aux.push(num);
   } 
   return aux;
+  
 };
 module.exports = continueStatement;
 //paso nesesito Exolicacion

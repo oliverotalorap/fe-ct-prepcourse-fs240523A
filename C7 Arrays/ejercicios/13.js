@@ -9,10 +9,11 @@ function filtrarNumerosPares(array) {
 // return contador;
 
   var nuevo =[];
-   for (var i = 0; i < array.length; i= i+1)
-   if(array[i] % 2 == 0){ nuevo.push(array[i])
-   };
+   for (var i = 0; i < array.length; i=i+1)
+   if(array[i] % 2 == 0){ nuevo.push(array[i]) };
    return nuevo;
+
+
 };
 
 module.exports = filtrarNumerosPares;

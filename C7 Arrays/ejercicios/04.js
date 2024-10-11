@@ -6,7 +6,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   array.push(elemento);
   return array;
   
-  return [array.push(elemento)];  // NO FUNCIONO
+  //return array.push(elemento);  // NO FUNCIONO
   
 };
 

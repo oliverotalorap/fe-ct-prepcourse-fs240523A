@@ -24,5 +24,6 @@ function mesesDelAño(array) {
   if (arrayMesesA.length === 3) {return arrayMesesA; } 
      return "No se encontraron los meses pedidos";
 };
+
 module.exports = mesesDelAño;
 // NO PASO EXPLICACION

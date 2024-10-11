@@ -10,10 +10,10 @@ function multiplicarElementosPorIndice(array) {
 
   const porIndice = [];
   for(let i = 0; i < array.length; i=i+1){
-  porIndice.push(array[i] * porIndice.length) 
+  porIndice.push(array[i] * porIndice.length)   
   };
   return porIndice;
-
+  
 };
 
 module.exports = multiplicarElementosPorIndice;

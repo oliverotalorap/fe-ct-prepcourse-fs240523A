@@ -6,9 +6,9 @@ function encontrarIndiceMayor(array) {
 let numeroMayor = array[0];
 let indiceMayor = 0;
 array.forEach(function(numero, indice) {
-  if (numero > numeroMayor) {numeroMayor = numero;
-    indiceMayor = indice;
-} });
+  if (numero > numeroMayor) {numeroMayor = numero; 
+    indiceMayor = indice;   } 
+  });
 return indiceMayor;  
 
 // let numeroMaror = array[0];

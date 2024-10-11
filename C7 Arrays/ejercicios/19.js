@@ -7,20 +7,20 @@ function multiplicarArgumentos() {
   // Tu código:
   //console.log(arguments);
 
-  if(arguments.length === 0 ) return 0;
-  if(arguments.length === 1 ) return arguments[0];
-  let  multiplicacion = 1; 
-  for(let i = 0; i < arguments.length; i++ ){
-    multiplicacion = multiplicacion * arguments[i];
-  };
-   return multiplicacion;
-
   // if(arguments.length === 0 ) return 0;
-  // var argMultiplicados = arguments[0]  // let i =1 ¿? en ves de 0.
-  // for(let i = 1; i < arguments.length; i++ ){
-  //   argMultiplicados = argMultiplicados * arguments[i];
+  // if(arguments.length === 1 ) return arguments[0];
+  // let  multiplicacion = 1; 
+  // for(let i = 0; i < arguments.length; i++ ){
+  //   multiplicacion = multiplicacion * arguments[i];
   // };
-  //  return argMultiplicados;
+  //  return multiplicacion;
+
+  if(arguments.length === 0 ) return 0;
+  var argMultiplicados = arguments[0]  // let i =1 ¿? en ves de 0.
+  for(let i = 1; i < arguments.length; i++ ){
+    argMultiplicados = argMultiplicados * arguments[i];
+  };
+   return argMultiplicados;
 
 
 };

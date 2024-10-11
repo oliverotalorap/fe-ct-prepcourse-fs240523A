@@ -12,12 +12,14 @@ function convertirStringAMayusculas(array) {
 
   //const nuevoArray = [];
       //var nuevoArray = [];
+
   let nuevoArray = [];
   for(let i = 0; i < array.length; i++){
-    nuevoArray.push(array[i].toUpperCase())
-  };
+    nuevoArray.push(array[i].toUpperCase()) };
   return nuevoArray;
  
+  // for(let i = 0; i < array.length; i=i+1){
+  //   if (array[i].toUpperCase()) return array[i];  };
 };
 
 module.exports = convertirStringAMayusculas;

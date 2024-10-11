@@ -6,19 +6,21 @@ function encontrarNumeroFaltante(numeros) {
   // Tu código:
 
   // if (numeros.length === 0) return null; 
-  // for (let i = 0; i < numeros.length - 1; i++) {
+  // for (let i = 0; i < numeros.length -1; i++) {
   //   if (numeros[i] + 1 !== numeros[i + 1] ) return numeros[i] + 1;
   // };
   // return null; //Ejemplos Camilo Pineda 
 
 
-  if (numeros.length === 0) { return null; }; // Si está vacío, devolvemos null
-    for (let i = 0; i < numeros.length - 1; i++) {
+  //if (numeros.length === 0) { return null; }; // Si está vacío, devolvemos null
+  if (numeros.length === 0) return null; // Si está vacío, devolvemos null
+    for (let i = 0; i < numeros.length -1; i++) {
     if (numeros[i + 1] - numeros[i] > 1) {return numeros[i] + 1;  
       // Retornamos el número faltante
   }; };
   return null;  // Si no encontramos un número faltante, devolvemos null
 
 };
+
 module.exports = encontrarNumeroFaltante;
 // paso

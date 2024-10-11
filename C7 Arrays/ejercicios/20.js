@@ -11,8 +11,8 @@ function todosIguales(array) {
 // });
 // return resultado;
 
-// let aux = array[0];
-// return array.every(elem => elem === aux);
+let aux = array[0];
+return array.every(elem => elem === aux);
 
   for (var i =0; i < array.length; i++ ){
     if(array[i] === array[i = 1]) { 

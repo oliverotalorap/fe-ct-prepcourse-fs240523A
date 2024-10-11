@@ -6,7 +6,7 @@ function encontrarElementoRepetido(numeros) {
 
  for (let i = 0; i< numeros.length; i=i+1) {
   for (let j = i+1; j< numeros.length; j++) {
-    if (numeros[i] === numeros[j]) return numeros[i];    
+    if (numeros[i] === numeros[j]) return numeros[i];  
  }; };
 
   const numerosVistos = new Set();        // Creamos un Set para almacenar números vistos
@@ -19,7 +19,6 @@ function encontrarElementoRepetido(numeros) {
     // Repasar el Ejercicio NO LO COMPRENDO.
     
   };
-
 
   module.exports = encontrarElementoRepetido;
   console.log(encontrarElementoRepetido([1, 11, 2, 4, 5, 6, 7, 4, 11, 2, 5, 13]));

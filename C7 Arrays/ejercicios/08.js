@@ -10,10 +10,10 @@ function encontrarElemento(num, array) {
    //};
    //  return -1    
          
-   return array.indexOf(num);
+   //return array.indexOf(num);
    
-   // indice = array.indexOf(num);
-   // return indice;
+   indice = array.indexOf(num);
+   return indice;
    
    //for (let index = 0; index < array.length; index++) {
 

@@ -15,8 +15,11 @@ function duplicarElementos(array) {
   // duplicarElementos.push(array[i] * 2 ) };
   // return duplicarElementos; 
 
+  
+  return array.map(num => num * 2);
   var incremento = array.map(num => num * 2);
   return incremento; 
+   
 
 };
 let porDos = duplicarElementos([1, 3, 5, 7, 2, 4, 6]);
