@@ -9,9 +9,9 @@ function tablaDelSeis() {
 var resultado = [];
    for(let i = 0; i <= 10; i++){
       resultado.push(i*6);
-   };
+   }; 
    return resultado;
-
+   return resultado;
 };
 
 module.exports = tablaDelSeis;

@@ -12,8 +12,7 @@ function filtrarNumerosPares(array) {
    for (var i = 0; i < array.length; i=i+1)
    if(array[i] % 2 == 0){ nuevo.push(array[i]) };
    return nuevo;
-
-
+   return nuevo;
 };
 
 module.exports = filtrarNumerosPares;

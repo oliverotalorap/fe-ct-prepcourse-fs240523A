@@ -10,7 +10,7 @@ let texto = palabras.reduce(function(acum, palabras){
 }
 );
 return texto; 
-
+return texto; 
 
 //  return palabras.join(" ");  // (' '); // .join es una solucion
 
@@ -23,7 +23,5 @@ return texto;
    // el Bucle FOR pasa en mi plantilla; PERO NO PASA EN EL WOMEWORK
 
 };
-
 module.exports = dePalabrasAFrase;
-
 //paso analisar el for 

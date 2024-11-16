@@ -3,7 +3,8 @@ function devolverPrimerElemento(array) {
   // Tu código:
 
   return array[0];
-  return array[array.length -0];  //No funciono Repasarlo
+  
+  return array[array.length];   //No funciono Repasarlo
   
 };
 

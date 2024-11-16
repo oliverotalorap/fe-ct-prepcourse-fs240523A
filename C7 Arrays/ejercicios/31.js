@@ -7,7 +7,7 @@ function invertirTexto(texto) {
   const caracteresInvertidos = caracteres.reverse();  // Invertimos el arreglo de caracteres
   const textoInvertido = caracteresInvertidos.join('');  // Unimos los caracteres invertidos en un string
   return textoInvertido;  // Retornamos el string invertido
-
+  return textoInvertido;
 
   return texto.split("").reverse().join(""); // por Camilo Pineda
 

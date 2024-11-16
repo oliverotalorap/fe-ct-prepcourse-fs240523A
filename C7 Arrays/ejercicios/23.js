@@ -5,12 +5,12 @@ function breakStatement(num) {
   //debe interrumpirse la ejecución y retornar el string: "Se interrumpió la ejecución".
   // Tu código:
 
-  // let array = [];
-  // for (let i = 0; i < 10; i++) { num = num + 2;
-  //   if ( num === i) {return "Se interrumpió la ejecución" 
-  //   }; array.push(num)
-  // }
-  // return array; 
+  let array = [];
+  for (let i = 0; i < 10; i++) { num = num + 2;
+    if ( num === i) {return "Se interrumpió la ejecución" 
+    }; array.push(num)
+  }
+  return array; 
 
   //let aux2 = [];
   //for(let i = 0; i < 10; i++) {num = num + 2;   // num += 2;

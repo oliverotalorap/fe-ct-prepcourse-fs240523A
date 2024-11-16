@@ -2,10 +2,10 @@ function agregarNumeros(arrayOfNums) {
   // Suma todos los elementos de arrayOfNums y retorna el resultado.
   // Tu código:
 
-  let sumaTodo = arrayOfNums.reduce(function(acum, numero) {
-    return acum + numero;
-  });
-  return sumaTodo;
+  // let sumaTodo = arrayOfNums.reduce(function(acum, numero) {
+  //   return acum + numero;
+  // });
+  // return sumaTodo;
 
   var total = 0;
   for (let i = 0; i < arrayOfNums.length; i++) {

@@ -18,6 +18,7 @@ function contarParesConContinue(numeros) {
      //contador++;
   };
   return contador;
+  return contador;
 };
 module.exports = contarParesConContinue;
 // paso

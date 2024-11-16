@@ -2,11 +2,11 @@ function obtenerPrimerStringLargo(array) {
   // Devuelve el primer string con más de 5 caracteres en el array.
   // Tu código:
 
-  // let arregloDeCinco = array.filter( function(string) {
-  //   if (string.length >= 5) return string; 
-  // } );
-  // return arregloDeCinco[0];
-  // console.log(arregloDeCinco);
+  let arregloDeCinco = array.filter( function(string) {
+    if (string.length >= 5) return string; 
+  } );
+  return arregloDeCinco[0];
+  console.log(arregloDeCinco);
   
 
   // const primerStringLargo = array.find(function(elemento) {

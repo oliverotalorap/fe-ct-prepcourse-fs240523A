@@ -20,7 +20,7 @@ return multiplo; //Ejemplos Camilo Pineda 30 -/ 76 de 79?
       };
    };
  return null;
-
+ return null;
 };
 
 module.exports = encontrarPrimerMultiploDeN;

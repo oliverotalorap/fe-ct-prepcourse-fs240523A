@@ -10,6 +10,7 @@ function obtenerElementoAleatorio(array) {
    return elementoAleatorio;    
    
 };
+
 let resultado = obtenerElementoAleatorio([4,3,2,1,0])
 console.log(resultado)
 

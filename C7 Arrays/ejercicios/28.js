@@ -8,7 +8,7 @@ function esArrayNoVacio(arr) {
   return true;  // Si es un arreglo y no está vacío, retornamos true
   } else {return false;  // Si no es un arreglo o está vacío, retornamos false
   };
-
+    //Eje 28 de 33.
 };
 
 module.exports = esArrayNoVacio;

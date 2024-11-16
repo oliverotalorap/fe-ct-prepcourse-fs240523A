@@ -11,7 +11,7 @@ function esPalindromo(string) {
   const stringInvertido = string.split('').reverse().join(''); // Invertimos el string
   console.log(string) === stringInvertido;                     // Comparamos string original con el invertido
   return string === stringInvertido;
-
+  return string === stringInvertido; // para guardar
 
 if(string.split("").reverse().join("") === string) 
     return true;

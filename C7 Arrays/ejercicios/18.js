@@ -13,7 +13,7 @@ function promedioResultadosTest(resultadosTest) {
       total = total + resultadosTest[i];
    }; 
    return total / resultadosTest.length;
-
+   return total / resultadosTest.length;
 };
 
 module.exports = promedioResultadosTest;

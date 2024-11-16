@@ -5,10 +5,10 @@ function encontrarElemento(num, array) {
    // Si no se encuentra, retorna -1.
    // Tu código:
    
-   //for (let i = 0; i< array.length; i++) {
-   //   if (array[i] === num) return i
-   //};
-   //  return -1    
+   for (let i = 0; i< array.length; i++) {
+     if (array[i] === num) return i
+   };
+    return -1    
          
    //return array.indexOf(num);
    
