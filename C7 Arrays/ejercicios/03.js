@@ -4,7 +4,7 @@ function obtenerLargoDelArray(array) {
 
   return array.length;
   
-  // paso
+  // Bien
 };
 
 module.exports = obtenerLargoDelArray;

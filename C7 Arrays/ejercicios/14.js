@@ -14,7 +14,7 @@ function contarElementosMayoresA10(array) {
    
    };
    return nuevo.length;
-   return nuevo.length;
+   // 
 };
 
 module.exports = contarElementosMayoresA10;

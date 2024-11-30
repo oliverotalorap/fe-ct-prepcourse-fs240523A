@@ -13,6 +13,7 @@ function mesesDelAño(array) {
    })
    if( mesesFiltrados.length === 3) return mesesFiltrados;
    else return "No se encontraron los meses pedidos";
+   //else return "No se encontraron los meses pedidos";
 
 
   var arrayMesesA = [];

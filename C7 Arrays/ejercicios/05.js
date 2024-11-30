@@ -7,10 +7,10 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   return array;
 
   //return array = array.unshift(elemento);  // NO FUNCIONO
-  
-  //Estudiar y explicacion
+  // Exoplicar
+  //Estudiar
   
 }
 
 module.exports = agregarItemAlComienzoDelArray;
-// paso Explicacion
+// Bien

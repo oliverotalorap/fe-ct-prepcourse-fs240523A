@@ -10,6 +10,7 @@ let resultado = array.every( function(numero) {
   } else return false;
 });
 return resultado;
+return resultado;
 
 let aux = array[0];
 return array.every(elem => elem === aux);

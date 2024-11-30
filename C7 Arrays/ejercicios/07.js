@@ -5,7 +5,7 @@ function ordenarArray(array) {
   
   return array.sort();
   
-  // repasar
+  // sort ordena y pasa
 };
 
 module.exports = ordenarArray;

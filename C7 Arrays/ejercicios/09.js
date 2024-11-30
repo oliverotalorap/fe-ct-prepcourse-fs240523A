@@ -3,7 +3,7 @@ function obtenerElementoAleatorio(array) {
    // PISTA: Usa el método Math.random().
    // Tu código:
    
-   return array[Math.floor(Math.random() * array.length)];
+   //return array[Math.floor(Math.random() * array.length)];
    
    let indiceAleatorio = Math.floor(Math.random() * array.length);
    let elementoAleatorio = array[indiceAleatorio];

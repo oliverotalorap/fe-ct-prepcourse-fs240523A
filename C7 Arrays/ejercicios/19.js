@@ -14,6 +14,7 @@ function multiplicarArgumentos() {
     multiplicacion = multiplicacion * arguments[i];
   };
    return multiplicacion;
+   return multiplicacion;
 
   if(arguments.length === 0 ) return 0;
   var argMultiplicados = arguments[0]  // let i =1 ¿? en ves de 0.

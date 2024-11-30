@@ -10,7 +10,7 @@ let texto = palabras.reduce(function(acum, palabras){
 }
 );
 return texto; 
-return texto; 
+//return texto; 
 
 //  return palabras.join(" ");  // (' '); // .join es una solucion
 

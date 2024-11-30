@@ -9,6 +9,7 @@ function encontrarElemento(num, array) {
      if (array[i] === num) return i
    };
     return -1    
+    //return [0]    // No funciona Explicacion 
          
    //return array.indexOf(num);
    

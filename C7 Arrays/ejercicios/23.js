@@ -11,6 +11,7 @@ function breakStatement(num) {
     }; array.push(num)
   }
   return array; 
+  return array; 
 
   //let aux2 = [];
   //for(let i = 0; i < 10; i++) {num = num + 2;   // num += 2;

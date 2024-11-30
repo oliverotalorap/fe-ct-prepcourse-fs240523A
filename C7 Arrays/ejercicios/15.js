@@ -10,7 +10,7 @@ array.forEach(function(numero, indice) {
     indiceMayor = indice;   } 
   });
 return indiceMayor;  
-return indiceMayor;
+// pasa
 
 // let numeroMaror = array[0];
 // let indiceMayor = 0;

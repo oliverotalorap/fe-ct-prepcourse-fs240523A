@@ -11,7 +11,7 @@ var resultado = [];
       resultado.push(i*6);
    }; 
    return resultado;
-   return resultado;
+   //return resultado;
 };
 
 module.exports = tablaDelSeis;

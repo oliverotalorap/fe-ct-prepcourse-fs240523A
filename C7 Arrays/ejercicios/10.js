@@ -3,7 +3,7 @@ function obtenerPrimerStringLargo(array) {
   // Tu código:
 
   let arregloDeCinco = array.filter( function(string) {
-    if (string.length >= 5) return string; 
+    if (string.length >= 5) return string;              //El ejerccio funciona con -"">="-
   } );
   return arregloDeCinco[0];
   console.log(arregloDeCinco);

@@ -10,6 +10,7 @@ function encontrarNumeroFaltante(numeros) {
     if (numeros[i] + 1 !== numeros[i + 1] ) return numeros[i] + 1;
   };
   return null; //Ejemplos Camilo Pineda 
+  //return null; //Ejemplos Camilo Pineda 
 
 
   //if (numeros.length === 0) { return null; }; // Si está vacío, devolvemos null

@@ -10,6 +10,7 @@ function contarParesConContinue(numeros) {
      else continue;
   };
   return cantidadPares;  //Ejemplos Camilo Pineda
+  //return cantidadPares;  //Ejemplos Camilo Pineda
 
   let contador = 0;
   for (let i=0; i < numeros.length; i=i+1) {

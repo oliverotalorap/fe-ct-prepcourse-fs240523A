@@ -13,7 +13,7 @@ function multiplicarElementosPorIndice(array) {
   porIndice.push(array[i] * porIndice.length)   
   };
   return porIndice;
-  return porIndice;
+  // pasa
 };
 
 module.exports = multiplicarElementosPorIndice;

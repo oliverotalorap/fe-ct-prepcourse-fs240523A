@@ -11,6 +11,7 @@ let multiplo = undefined;
       break; } 
     };
 return multiplo; //Ejemplos Camilo Pineda 30 -/ 76 de 79?
+//return multiplo; //Ejemplos Camilo Pineda 30 -/ 76 de 79?
 
 
   for (let i = 0; i < secuencia.length; i++) {

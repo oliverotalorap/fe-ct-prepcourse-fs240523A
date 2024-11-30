@@ -12,6 +12,7 @@ function agregarNumeros(arrayOfNums) {
     total = total + arrayOfNums[i]; 
   };
   return total;
+  return total;
 
   var sumaNumeros = arrayOfNums.reduce((num1, num2) => num1 + num2);
   return sumaNumeros;  // Pasa nesesito explicacion.
