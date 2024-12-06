@@ -6,11 +6,11 @@ function esEntero(num) {
   // De lo contrario, retorna false.
   // Tu código:
 
-  return Number.isInteger(num);
+  //return Number.isInteger(num);
   //return num % 1 == 0;
 
-  // if (num % 1 == 0) return true;
-  // else return false;
+  if (num % 1 == 0) return true;
+  else return false;
 
 }
 

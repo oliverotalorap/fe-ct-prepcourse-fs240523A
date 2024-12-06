@@ -4,7 +4,8 @@ function esParYDivisiblePorTres(a) {
   // Retorna false si no lo es.
   // Tu código:
 
-  return a%2 == 0 && a%3 == 0; // master
+  return a %2 == 0 && a %3 == 0; // master
+  //return a %2 == 0 && a %3 == 0; // master
   
   // if (a % 2 == 0 && a % 3 == 0) {return true; }
   // else return false; 

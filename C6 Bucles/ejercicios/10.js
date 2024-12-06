@@ -4,6 +4,7 @@ function esDiezOCinco(num) {
   // Tu código:
 
   return num == 10 || num == 5;   // master
+  //return num == 10 || num == 5;   // master
 
   // if (num == 5 || num == 10) {return true; }
   // else return false;

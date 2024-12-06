@@ -10,6 +10,7 @@ function fizzBuzz(num) {
   if (num % 3 == 0) return "fizz";
   if (num % 5 == 0) return "buzz";
   else return false;
+  //else return false;
 
  }
 module.exports = fizzBuzz;

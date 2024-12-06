@@ -11,6 +11,7 @@ function esPotenciaDeDos(numero) {
   } else return false;
   }
   return true; // video 7/9 01.18.23
+  //return true; // video 7/9 01.18.23
 
   // while (numero > 1) {
   //   if (numero % 2 != 0) return false;

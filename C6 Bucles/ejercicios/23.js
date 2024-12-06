@@ -12,6 +12,7 @@ function esNumeroPrimo(numero) {
   if (numero % i === 0) return false;
 }
 return true;
+//return true;
 
 // if (numero % 2 === 0) return false;
 // else if (numero % 3 === 0) return false;

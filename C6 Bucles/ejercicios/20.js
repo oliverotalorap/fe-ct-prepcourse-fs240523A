@@ -10,6 +10,7 @@ function sumarHastaNConBreak(n) {
      suma = suma + i;
    }
    return suma;
+   //return suma;
 
    // var suma = 0;
    // for (var i = 1; i <= n; i++) {

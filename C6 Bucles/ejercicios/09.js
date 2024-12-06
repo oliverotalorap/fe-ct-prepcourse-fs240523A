@@ -10,6 +10,7 @@ function conection(status) {
     case 1: return "Online";
     case 2: return "Away";
     default: return "Offline";
+    //default: return "Offline";
   }
 
   // if (status == 1) {return "Online"; }

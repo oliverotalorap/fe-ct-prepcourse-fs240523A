@@ -16,6 +16,7 @@ switch(numero ) {
   case 6: return "Sabado"
   case 7: return "Domingo"
   default: return "No es un dia de la semana"
+  //default: return "No es un dia de la semana"
 };                // master
 
   if ( numero == 1 ) return "Lunes";

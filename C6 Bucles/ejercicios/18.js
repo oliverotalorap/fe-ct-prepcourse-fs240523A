@@ -8,6 +8,7 @@ function productoEntreNúmeros(a, b) {
           acum = acum * i;          
         }
         return Math.abs(acum);
+        //return Math.abs(acum);
         //if(acum === -0 ) return 0; // NO FUNCION 
 
       // let acumulador = 1;

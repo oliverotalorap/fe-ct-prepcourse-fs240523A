@@ -8,7 +8,7 @@ function sumarHastaN(n) {
     suma = suma + i;
   }
   return suma;   
-  
+  //return suma;   
 }
 
 module.exports = sumarHastaN;

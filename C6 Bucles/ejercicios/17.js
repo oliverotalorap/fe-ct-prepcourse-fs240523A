@@ -14,6 +14,7 @@ function colors(color) {
     case "green": return "This is green";
     case "orange": return "This is orange";
     default: return "Color not found";
+    //default: return "Color not found";
   }
 
 if (color == "blue") return "This is blue";

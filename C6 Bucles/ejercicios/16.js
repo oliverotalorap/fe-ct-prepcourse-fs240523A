@@ -11,6 +11,7 @@ switch (idioma) {
   case "mandarin": return "Ni Hao!"
   case "ingles": return "Hello!"
   default: return "Hola!"
+  //default: return "Hola!"
       // master 
       // textear o comentar
 }

@@ -4,6 +4,7 @@ function estaEnRango(num) {
   // Tu código:
 
   return num < 50 && num > 20;    // master
+  //return num < 50 && num > 20;    // master
 
   // if(num > 20 && num < 50) {return true; }
   // else return false;
