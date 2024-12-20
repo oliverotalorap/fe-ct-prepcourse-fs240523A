@@ -4,11 +4,14 @@ function esParYDivisiblePorTres(a) {
   // Retorna false si no lo es.
   // Tu código:
 
-  return a %2 == 0 && a %3 == 0; // master
-  //return a %2 == 0 && a %3 == 0; // master
-  
   // if (a % 2 == 0 && a % 3 == 0) {return true; }
   // else return false; 
+  
+  return a %2 == 0 && a %3 == 0; // master
+
+  console.log(a %2 == 0 && a %3 == 0); // lo toma SOLO con return
+  
 }
 module.exports = esParYDivisiblePorTres;
 // paso
+esParYDivisiblePorTres(12);

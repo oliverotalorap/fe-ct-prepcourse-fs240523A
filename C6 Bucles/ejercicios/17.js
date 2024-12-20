@@ -8,6 +8,13 @@ function colors(color) {
   // PISTA: utilizar el statement SWITCH.
   // Tu código:
 
+  const colores = {
+    blue: "This is blue",
+        red: "This is red",
+        green: "This is green",
+        orange: "This is orange", };   
+        return colores[color] || "Color not found";
+
   switch(color) {
     case "blue": return "This is blue";
     case "red": return "This is red";

@@ -7,7 +7,7 @@ function esEntero(num) {
   // Tu código:
 
   //return Number.isInteger(num);
-  //return num % 1 == 0;
+  return num % 1 == 0;
 
   if (num % 1 == 0) return true;
   else return false;

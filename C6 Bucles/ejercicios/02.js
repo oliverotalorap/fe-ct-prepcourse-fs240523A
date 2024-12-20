@@ -5,8 +5,8 @@ function esVerdaderoYFalso(booleano1, booleano2) {
 
   //return booleano1 && booleano2;
   
-  if (booleano1 && booleano2) {return true};
-  return false;
+  // if (booleano1 && booleano2) {return true};
+  // return false;
   if (booleano1 == true && booleano2 == true) return true;
   else return false;
 

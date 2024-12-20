@@ -6,7 +6,7 @@ function obtenerMayor(x, y) {
 
  //return Math.max(x,y); //master
 
-if (x == y){return x;}
+if (x == y) return x;
   else if (x > y ) {return x; }
   else return y;
 

@@ -4,11 +4,11 @@ function sumarHastaN(n) {
   // Tu código:
 
   let suma = 0;
-  for (let i = 1; i <= n; i++) {
+  for (let i = 1; i <= n; i=i+1) {
     suma = suma + i;
   }
   return suma;   
-  //return suma;   
+  //
 }
 
 module.exports = sumarHastaN;

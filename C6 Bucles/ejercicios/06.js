@@ -5,9 +5,9 @@ function tieneTresDigitos(num) {
 
   //num.esString  // pasar a strin e igualarlo
 
-  if (num <= 999 && num >99 ) {return true; }
+  if (num <= 999 && num >=100 ) {return true; }
   else return false;
-  //else return false;
+  //Eje-Directo
 }
 module.exports = tieneTresDigitos;
 // paso

@@ -6,7 +6,7 @@ function esVerdadero(valor) {
 
   if (valor) return "Soy verdadero" // master
   else return "Soy falso";
-  //else return "Soy falso";
+  //Directo:
 
   // if (valor == true) {return "Soy verdadero"}
   // else return "Soy falso";
