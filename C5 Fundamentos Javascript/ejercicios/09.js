@@ -12,6 +12,7 @@ function esNuloOIndefinido(valor) {
   if(valor == null){ return true; }
   else if (valor == undefined){ return True;} 
   else return false;
+  //else return false;
 };
 module.exports = esNuloOIndefinido;
 // paso-09
