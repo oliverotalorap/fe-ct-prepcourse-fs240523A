@@ -13,5 +13,5 @@ function sonIguales(x, y) {
    else return false;
 }
 
+// paso
 module.exports = sonIguales;
-// pass

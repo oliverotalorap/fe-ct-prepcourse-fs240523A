@@ -13,5 +13,6 @@ function esPar(num) {
   }
   else return false;
 }
-module.exports = esPar;
+
 // paso
+module.exports = esPar;

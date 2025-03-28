@@ -2,6 +2,6 @@
 // Reemplaza el valor de null por el correspondiente.
 
 const nuevoNumero = 15;
-// number o numero
-module.exports = nuevoNumero;
 // paso
+
+module.exports = nuevoNumero;

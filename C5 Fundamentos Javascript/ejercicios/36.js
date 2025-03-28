@@ -6,5 +6,5 @@ function numeroRandom() {
   return Math.random();
 }
 
-module.exports = numeroRandom;
 // paso
+module.exports = numeroRandom;

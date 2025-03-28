@@ -5,5 +5,6 @@ const nuevoModulo = 21 % 5 === 1;
 //const nuevoModulo = 21 % 5 === 1;
 //resto o sobrante de una divicion
 
-module.exports = nuevoModulo;
 // paso
+
+module.exports = nuevoModulo;

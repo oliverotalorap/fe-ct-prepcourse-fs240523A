@@ -11,5 +11,6 @@ return Math.pow(num, 2);
   return num ** 2;
 }
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
-module.exports = elevarAlCuadrado;
+
 // paso
+module.exports = elevarAlCuadrado;

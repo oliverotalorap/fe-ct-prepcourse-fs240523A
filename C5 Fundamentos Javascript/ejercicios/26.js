@@ -9,5 +9,5 @@ function obtenerSaludo(nombre) {
   return "Hola "+ nombre+"!";
 }
 
-module.exports = obtenerSaludo;
 // paso
+module.exports = obtenerSaludo;

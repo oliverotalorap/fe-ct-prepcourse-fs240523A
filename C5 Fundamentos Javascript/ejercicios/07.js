@@ -8,7 +8,6 @@ function esTipoDato(valor) {
   // return tipoDato;
   return typeof valor;
 }
-
+// paso
 
 module.exports = esTipoDato;
-// paso

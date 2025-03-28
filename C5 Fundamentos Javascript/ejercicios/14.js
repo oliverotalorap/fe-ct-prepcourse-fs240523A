@@ -15,5 +15,5 @@ function mayorQueCincuenta(num) {
   else return false;
 }
 
-module.exports = mayorQueCincuenta;
 // paso
+module.exports = mayorQueCincuenta;

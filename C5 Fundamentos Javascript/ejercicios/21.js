@@ -9,5 +9,5 @@ function multiplica(x, y) {
   return x * y;
 }
 
-module.exports = multiplica;
 // paso
+module.exports = multiplica;

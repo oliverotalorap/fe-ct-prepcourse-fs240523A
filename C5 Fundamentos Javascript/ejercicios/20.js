@@ -8,5 +8,5 @@ function resta(x, y) {
   return x-y;
 }
 
-module.exports = resta;
 // paso
+module.exports = resta;

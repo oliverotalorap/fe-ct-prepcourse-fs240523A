@@ -11,5 +11,5 @@ function esPositivo(num) {
   else return false;
 }
 
-module.exports = esPositivo;
 // paso
+module.exports = esPositivo;

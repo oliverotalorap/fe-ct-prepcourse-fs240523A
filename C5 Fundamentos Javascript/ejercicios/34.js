@@ -11,5 +11,5 @@ function redondearNumero(num) {
    return Math.round(num);
 }
 
-module.exports = redondearNumero;
 // paso
+module.exports = redondearNumero;

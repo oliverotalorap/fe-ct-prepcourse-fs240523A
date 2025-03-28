@@ -3,6 +3,5 @@
 
 const nuevoString = "StringO Palabra";
 
-// hecho
-module.exports = nuevoString;
 // paso
+module.exports = nuevoString;

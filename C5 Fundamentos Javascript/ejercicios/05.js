@@ -3,6 +3,6 @@
 
 const nuevaMultiplicacion = 10 * 4 === 40;
 //const nuevaMultiplicacion = 10 * 4 === 40;
+// paso
 
 module.exports = nuevaMultiplicacion;
-// paso

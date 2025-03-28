@@ -18,5 +18,6 @@ function esNumeroEntero(numero) {
   if(numero % 1 == 0) return true; 
   else return false;
   };
-  module.exports = esNumeroEntero;
+  
 // paso
+  module.exports = esNumeroEntero;

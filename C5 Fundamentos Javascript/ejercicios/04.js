@@ -3,6 +3,6 @@
 
 const nuevaResta = 10 - 7 === 3;
 // resta
+// paso
 
 module.exports = nuevaResta;
-// paso

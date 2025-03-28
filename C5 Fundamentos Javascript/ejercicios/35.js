@@ -11,5 +11,5 @@ function redondearHaciaArriba(num) {
   return Math.ceil(num);
 }
 
-module.exports = redondearHaciaArriba;
 // paso
+module.exports = redondearHaciaArriba;

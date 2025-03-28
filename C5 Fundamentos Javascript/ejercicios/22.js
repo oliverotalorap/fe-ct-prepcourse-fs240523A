@@ -8,5 +8,5 @@ function divide(x, y) {
   return x/y;
 }
 
-module.exports = divide;
 // paso
+module.exports = divide;

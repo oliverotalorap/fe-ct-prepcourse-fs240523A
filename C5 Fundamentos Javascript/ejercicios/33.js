@@ -12,5 +12,5 @@ function elevar(num, exponent) {
   return num ** exponent;
 }
 
-module.exports = elevar;
 // paso
+module.exports = elevar;

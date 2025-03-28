@@ -11,5 +11,5 @@ function tienenMismaLongitud(str1, str2) {
     else return false;
 }
 
-module.exports = tienenMismaLongitud;
 // paso
+module.exports = tienenMismaLongitud;

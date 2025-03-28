@@ -12,5 +12,5 @@ function devolverString(string) {
 
 }
 
+// paso
 module.exports = devolverString;
-// paso-10

@@ -16,5 +16,5 @@ function esImpar(num) {
 
 }
 
-module.exports = esImpar;
 // paso
+module.exports = esImpar;

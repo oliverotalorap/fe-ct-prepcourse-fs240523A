@@ -14,5 +14,6 @@ function esNuloOIndefinido(valor) {
   else return false;
   //else return false;
 };
+
+// paso
 module.exports = esNuloOIndefinido;
-// paso-09

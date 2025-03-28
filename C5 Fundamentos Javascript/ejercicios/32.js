@@ -12,5 +12,5 @@ function elevarAlCubo(num) {
   return num **3;
 }
 
-module.exports = elevarAlCubo;
 // paso
+module.exports = elevarAlCubo;
